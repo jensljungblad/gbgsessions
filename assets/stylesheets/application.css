@@ -17,8 +17,9 @@ rgb(249, 199, 199)
   content: ' ';
   height: 100%;
   left: 0;
-  opacity: 0.06;
+  opacity: 0.1;
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: -1;
 }
