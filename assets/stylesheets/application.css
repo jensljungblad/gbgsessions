@@ -33,6 +33,37 @@ html, body {
   text-align: center;
 }
 
+.block-social {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.block-social .fa-circle {
+  /*color: rgb(17, 33, 33);*/
+  color: white;
+}
+
+.block-social .fa-inverse {
+  /*color: rgb(249, 199, 199);*/
+  color: rgb(17, 33, 33);
+}
+
 .u-big {
   font-size: 22px;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
