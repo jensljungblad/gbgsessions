@@ -2,7 +2,13 @@
 
 ## Dependencies
 
-Sass is required to process `application.scss`. If you have Ruby on your machine, run `gem install sass` followed by `sass --watch assets/stylesheets/application.scss:assets/stylesheets/application.css`.
+Sass is required to process `application.scss`.
+
+```sh
+$ gem install sass
+$ cd ~/gbgsessions
+$ sass --watch assets/stylesheets/application.scss:assets/stylesheets/application.css
+```
 
 ## Deployment
 
