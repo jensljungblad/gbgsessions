@@ -1,13 +1,26 @@
 /*
  * - [ ] Add all the proper links
- * - [ ] Make it responsive
+ *   - [x] Playlist
+ *   - [x] Facebook https://www.facebook.com/GothenburgSessions
+ *   - [ ] E-mail
+ *   - [x] Youtube https://www.youtube.com/user/HedeForsProductions
+ *   - [x] Spotify https://open.spotify.com/user/gothenburgsessions
+ *   - [x] Instagram https://www.instagram.com/gothenburgsessions/
+ *   - [x] Twitter https://twitter.com/gbgsessions
+ * - [x] Make it responsive
  */
+
+https://youtu.be/vVdLRHygIQc?list=PLItBRZfSWzn0NqVNTdNnhVXGsE1NTbuXh
 
 html, body {
   background: white;
   color: rgb(17, 33, 33);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+}
+
+a {
+  color: rgb(17, 33, 33);
 }
 
 @media (max-width: 768px) {
@@ -49,7 +62,7 @@ html, body {
 .Logo {
   display: block;
   margin: auto;
-  width: 400px;
+  width: 350px;
 }
 
 @media (max-width: 768px) {
