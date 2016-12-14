@@ -1,0 +1,95 @@
+$color-white: white;
+$color-dark: rgb(17, 33, 33);
+$color-blue: rgb(197, 235, 251);
+$color-pink: rgb(249, 199, 199);
+
+html, body {
+  background: $color-white;
+  color: $color-dark;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+a {
+  color: rgb(17, 33, 33);
+}
+
+.Section {
+  padding: 60px 0;
+
+  @media (max-width: 768px) {
+    padding: 20px 20px;
+  }
+
+  &--dark {
+    background: $color-dark;
+  }
+
+  &--blue {
+    background: $color-blue;
+  }
+
+  &--pink {
+    background: $color-pink;
+  }
+
+  &-content {
+    letter-spacing: 1px;
+    line-height: 1.75rem;
+    margin: 0 auto;
+    max-width: 640px;
+    text-align: center;
+  }
+}
+
+.Logo {
+  display: block;
+  margin: auto;
+  width: 350px;
+
+  @media (max-width: 768px) {
+    max-width: 640px;
+    width: 80%;
+  }
+}
+
+.EmbedContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+
+  &-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.SocialIcon {
+  display: inline-block;
+  font-size: 1.25rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.85rem;
+  }
+
+  & .fa-circle {
+    color: $color-white;
+  }
+
+  & .fa-inverse {
+    color: $color-dark;
+  }
+}
+
+.u-big {
+  font-size: 22px;
+}
