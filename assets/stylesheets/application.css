@@ -1,8 +1,7 @@
 /*
-rgb(197, 235, 251)
-rgb(17, 33, 33)
-rgb(249, 199, 199)
-*/
+ * - [ ] Add all the proper links
+ * - [ ] Make it responsive
+ */
 
 html, body {
   background: white;
@@ -11,8 +10,20 @@ html, body {
   font-size: 16px;
 }
 
+@media (max-width: 768px) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
 .Section {
   padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+  .Section {
+    padding: 20px 20px;
+  }
 }
 
 .Section--dark {
@@ -36,7 +47,16 @@ html, body {
 }
 
 .Logo {
+  display: block;
+  margin: auto;
   width: 400px;
+}
+
+@media (max-width: 768px) {
+  .Logo {
+    width: 80%;
+    max-width: 640px;
+  }
 }
 
 .EmbedContainer {
@@ -58,6 +78,12 @@ html, body {
 .SocialIcon {
   display: inline-block;
   font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .SocialIcon {
+    font-size: 0.85rem;
+  }
 }
 
 .SocialIcon .fa-circle {
